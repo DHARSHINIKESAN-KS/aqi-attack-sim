@@ -1,0 +1,46 @@
+attack,intensity,method,P,R,F1,F1_std
+drift,10%,Autoencoder,0.195,0.74,0.309,0.029
+drift,10%,CrossSensor,0.387,0.699,0.497,0.035
+drift,10%,Defense (stat),0.444,0.276,0.34,0.098
+drift,10%,IsolationForest,0.195,0.258,0.222,0.074
+drift,10%,Proposed (Stat+CrossDrift),0.398,0.653,0.494,0.027
+drift,20%,Autoencoder,0.365,0.764,0.494,0.016
+drift,20%,CrossSensor,0.502,0.682,0.578,0.025
+drift,20%,Defense (stat),0.641,0.217,0.323,0.097
+drift,20%,IsolationForest,0.36,0.254,0.298,0.059
+drift,20%,Proposed (Stat+CrossDrift),0.512,0.639,0.568,0.03
+drift,5%,Autoencoder,0.118,0.76,0.204,0.017
+drift,5%,CrossSensor,0.269,0.722,0.392,0.029
+drift,5%,Defense (stat),0.269,0.249,0.257,0.097
+drift,5%,IsolationForest,0.095,0.217,0.132,0.063
+drift,5%,Proposed (Stat+CrossDrift),0.28,0.676,0.396,0.03
+freeze,10%,Autoencoder,0.163,0.599,0.256,0.068
+freeze,10%,CrossSensor,0.346,0.496,0.406,0.053
+freeze,10%,Defense (stat),0.686,1.0,0.813,0.025
+freeze,10%,IsolationForest,0.147,0.183,0.163,0.065
+freeze,10%,Proposed (Stat+CrossDrift),0.53,1.0,0.692,0.032
+freeze,20%,Autoencoder,0.31,0.597,0.408,0.036
+freeze,20%,CrossSensor,0.546,0.527,0.534,0.043
+freeze,20%,Defense (stat),0.75,0.999,0.857,0.023
+freeze,20%,IsolationForest,0.285,0.179,0.22,0.038
+freeze,20%,Proposed (Stat+CrossDrift),0.658,1.0,0.794,0.022
+freeze,5%,Autoencoder,0.091,0.566,0.157,0.044
+freeze,5%,CrossSensor,0.214,0.489,0.297,0.049
+freeze,5%,Defense (stat),0.567,1.0,0.723,0.025
+freeze,5%,IsolationForest,0.065,0.144,0.089,0.056
+freeze,5%,Proposed (Stat+CrossDrift),0.384,1.0,0.555,0.023
+spike,10%,Autoencoder,0.235,1.0,0.38,0.003
+spike,10%,CrossSensor,0.506,0.993,0.67,0.004
+spike,10%,Defense (stat),0.688,0.982,0.809,0.014
+spike,10%,IsolationForest,0.178,0.257,0.211,0.016
+spike,10%,Proposed (Stat+CrossDrift),0.545,0.98,0.701,0.006
+spike,20%,Autoencoder,0.406,1.0,0.577,0.002
+spike,20%,CrossSensor,0.683,0.993,0.809,0.008
+spike,20%,Defense (stat),0.838,0.852,0.845,0.008
+spike,20%,IsolationForest,0.338,0.267,0.298,0.01
+spike,20%,Proposed (Stat+CrossDrift),0.692,0.858,0.766,0.008
+spike,5%,Autoencoder,0.127,1.0,0.225,0.001
+spike,5%,CrossSensor,0.325,0.992,0.489,0.003
+spike,5%,Defense (stat),0.528,0.997,0.69,0.02
+spike,5%,IsolationForest,0.102,0.282,0.15,0.024
+spike,5%,Proposed (Stat+CrossDrift),0.36,0.997,0.529,0.008
