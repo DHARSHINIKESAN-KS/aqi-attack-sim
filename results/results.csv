@@ -1,0 +1,61 @@
+attack,intensity,method,precision,recall,f1,alarm_rate
+spike,5%,IsolationForest,0.13,0.084,0.102,0.032
+spike,5%,Autoencoder,0.515,1.0,0.68,0.097
+spike,5%,Defense only,0.603,0.995,0.751,0.082
+spike,5%,IsoForest+Defense,0.49,0.995,0.657,0.101
+spike,5%,Autoencoder+Defense,0.396,1.0,0.568,0.126
+spike,10%,IsolationForest,0.262,0.09,0.134,0.034
+spike,10%,Autoencoder,0.691,1.0,0.817,0.145
+spike,10%,Defense only,0.731,0.99,0.841,0.135
+spike,10%,IsoForest+Defense,0.649,0.993,0.785,0.153
+spike,10%,Autoencoder+Defense,0.561,1.0,0.719,0.178
+spike,20%,IsolationForest,0.35,0.065,0.109,0.037
+spike,20%,Autoencoder,0.836,1.0,0.91,0.239
+spike,20%,Defense only,0.866,0.932,0.898,0.215
+spike,20%,IsoForest+Defense,0.798,0.94,0.863,0.235
+spike,20%,Autoencoder+Defense,0.754,1.0,0.86,0.265
+spike,30%,IsolationForest,0.474,0.064,0.113,0.04
+spike,30%,Autoencoder,0.889,1.0,0.941,0.338
+spike,30%,Defense only,0.927,0.716,0.808,0.232
+spike,30%,IsoForest+Defense,0.857,0.739,0.794,0.259
+spike,30%,Autoencoder+Defense,0.849,1.0,0.918,0.353
+drift,5%,IsolationForest,0.067,0.037,0.047,0.031
+drift,5%,Autoencoder,0.306,0.358,0.33,0.066
+drift,5%,Defense only,0.343,0.284,0.311,0.047
+drift,5%,IsoForest+Defense,0.254,0.298,0.274,0.067
+drift,5%,Autoencoder+Defense,0.254,0.44,0.322,0.098
+drift,10%,IsolationForest,0.112,0.035,0.053,0.032
+drift,10%,Autoencoder,0.489,0.42,0.452,0.087
+drift,10%,Defense only,0.521,0.301,0.382,0.058
+drift,10%,IsoForest+Defense,0.402,0.314,0.352,0.079
+drift,10%,Autoencoder+Defense,0.414,0.482,0.445,0.117
+drift,20%,IsolationForest,0.201,0.032,0.055,0.032
+drift,20%,Autoencoder,0.724,0.435,0.544,0.123
+drift,20%,Defense only,0.598,0.148,0.237,0.051
+drift,20%,IsoForest+Defense,0.458,0.161,0.239,0.072
+drift,20%,Autoencoder+Defense,0.646,0.465,0.54,0.147
+drift,30%,IsolationForest,0.328,0.037,0.066,0.035
+drift,30%,Autoencoder,0.817,0.435,0.568,0.164
+drift,30%,Defense only,0.728,0.117,0.201,0.049
+drift,30%,IsoForest+Defense,0.568,0.14,0.225,0.076
+drift,30%,Autoencoder+Defense,0.768,0.452,0.569,0.181
+freeze,5%,IsolationForest,0.059,0.032,0.042,0.031
+freeze,5%,Autoencoder,0.258,0.282,0.269,0.062
+freeze,5%,Defense only,0.615,1.0,0.762,0.092
+freeze,5%,IsoForest+Defense,0.52,1.0,0.684,0.109
+freeze,5%,Autoencoder+Defense,0.424,1.0,0.596,0.134
+freeze,10%,IsolationForest,0.085,0.026,0.04,0.031
+freeze,10%,Autoencoder,0.318,0.204,0.249,0.065
+freeze,10%,Defense only,0.72,1.0,0.837,0.14
+freeze,10%,IsoForest+Defense,0.654,1.0,0.791,0.154
+freeze,10%,Autoencoder+Defense,0.563,1.0,0.72,0.179
+freeze,20%,IsolationForest,0.164,0.025,0.043,0.031
+freeze,20%,Autoencoder,0.523,0.182,0.27,0.071
+freeze,20%,Defense only,0.787,1.0,0.881,0.26
+freeze,20%,IsoForest+Defense,0.759,1.0,0.863,0.269
+freeze,20%,Autoencoder+Defense,0.711,1.0,0.831,0.287
+freeze,30%,IsolationForest,0.246,0.025,0.045,0.031
+freeze,30%,Autoencoder,0.615,0.155,0.248,0.078
+freeze,30%,Defense only,0.82,1.0,0.901,0.375
+freeze,30%,IsoForest+Defense,0.803,1.0,0.891,0.384
+freeze,30%,Autoencoder+Defense,0.771,1.0,0.871,0.399
