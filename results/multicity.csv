@@ -1,0 +1,19 @@
+city,attack,Autoencoder,Defense (ours),IsolationForest
+Brasilia,drift,0.28,0.322,0.255
+Brasilia,freeze,0.214,0.674,0.188
+Brasilia,spike,0.311,0.678,0.21
+Cairo,drift,0.247,0.516,0.085
+Cairo,freeze,0.084,0.6,0.003
+Cairo,spike,0.858,0.396,0.21
+Dubai,drift,0.316,0.405,0.067
+Dubai,freeze,0.131,0.81,0.027
+Dubai,spike,0.674,0.781,0.159
+London,drift,0.476,0.317,0.177
+London,freeze,0.238,0.581,0.098
+London,spike,0.627,0.591,0.205
+New_York,drift,0.55,0.384,0.092
+New_York,freeze,0.277,0.579,0.069
+New_York,spike,0.738,0.532,0.3
+Sydney,drift,0.446,0.411,0.042
+Sydney,freeze,0.104,0.655,0.02
+Sydney,spike,0.679,0.629,0.194
