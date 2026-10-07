@@ -1,0 +1,10 @@
+attack,vs,ours_F1,other_F1,p_value,ours_better_significant
+spike,Fixed threshold,0.808,0.786,0.0017,True
+spike,Moving average,0.808,0.857,4.7e-06,False
+spike,Cross-sensor,0.808,0.094,1.3e-15,True
+drift,Fixed threshold,0.291,0.359,0.003,False
+drift,Moving average,0.291,0.092,2.4e-05,True
+drift,Cross-sensor,0.291,0.496,1.2e-05,False
+freeze,Fixed threshold,0.804,0.086,6.6e-09,True
+freeze,Moving average,0.804,0.005,1.2e-14,True
+freeze,Cross-sensor,0.804,0.369,1.6e-08,True
